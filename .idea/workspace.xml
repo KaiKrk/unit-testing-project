@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/contrat/manager/ComptabiliteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/contrat/manager/ComptabiliteManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myerp-model/src/main/java/com/dummy/myerp/model/bean/comptabilite/EcritureComptable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-model/src/main/java/com/dummy/myerp/model/bean/comptabilite/EcritureComptable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/EcritureComptableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/EcritureComptableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,40 +62,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EcritureComptableTest.getTotalDebit">
-    <configuration name="EcritureComptableTest.getTotalCredit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myerp-model" />
+  <component name="RunManager" selected="JUnit.ComptabiliteManagerImplTest">
+    <configuration name="ComptabiliteManagerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myerp-business" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dummy.myerp.model.bean.comptabilite.*" />
+          <option name="PATTERN" value="com.dummy.myerp.business.impl.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dummy.myerp.model.bean.comptabilite" />
-      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.model.bean.comptabilite.EcritureComptableTest" />
-      <option name="METHOD_NAME" value="getTotalCredit" />
+      <option name="PACKAGE_NAME" value="com.dummy.myerp.business.impl.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComptabiliteManagerImplTest.addReferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myerp-business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dummy.myerp.business.impl.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dummy.myerp.business.impl.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" />
+      <option name="METHOD_NAME" value="addReferenceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcritureComptableTest.getTotalDebit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myerp-model" />
+    <configuration name="ComptabiliteManagerImplTest.checkEcritureComptableUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myerp-business" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dummy.myerp.model.bean.comptabilite.*" />
+          <option name="PATTERN" value="com.dummy.myerp.business.impl.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dummy.myerp.model.bean.comptabilite" />
-      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.model.bean.comptabilite.EcritureComptableTest" />
-      <option name="METHOD_NAME" value="getTotalDebit" />
+      <option name="PACKAGE_NAME" value="com.dummy.myerp.business.impl.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" />
+      <option name="METHOD_NAME" value="checkEcritureComptableUnit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcritureComptableTest.isEquilibree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComptabiliteManagerImplTest.checkEcritureComptableUnitRG3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myerp-business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dummy.myerp.business.impl.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dummy.myerp.business.impl.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" />
+      <option name="METHOD_NAME" value="checkEcritureComptableUnitRG3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcritureComptableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myerp-model" />
       <extension name="coverage">
         <pattern>
@@ -101,17 +136,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.dummy.myerp.model.bean.comptabilite" />
       <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.model.bean.comptabilite.EcritureComptableTest" />
-      <option name="METHOD_NAME" value="isEquilibree" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EcritureComptableTest.getTotalDebit" />
-        <item itemvalue="JUnit.EcritureComptableTest.isEquilibree" />
-        <item itemvalue="JUnit.EcritureComptableTest.getTotalCredit" />
+        <item itemvalue="JUnit.ComptabiliteManagerImplTest" />
+        <item itemvalue="JUnit.ComptabiliteManagerImplTest.checkEcritureComptableUnit" />
+        <item itemvalue="JUnit.ComptabiliteManagerImplTest.addReferenceTest" />
+        <item itemvalue="JUnit.ComptabiliteManagerImplTest.checkEcritureComptableUnitRG3" />
+        <item itemvalue="JUnit.EcritureComptableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +163,9 @@
       <updated>1588014606282</updated>
       <workItem from="1588014610322" duration="2797000" />
       <workItem from="1588020961436" duration="964000" />
-      <workItem from="1588059736094" duration="22270000" />
+      <workItem from="1588059736094" duration="22965000" />
+      <workItem from="1588143698963" duration="24140000" />
+      <workItem from="1588228036401" duration="5775000" />
     </task>
     <servers />
   </component>
@@ -139,10 +177,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/P9OC$ComptabiliteManagerImplTest.ic" NAME="ComptabiliteManagerImplTest Coverage Results" MODIFIED="1588238744170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dummy.myerp.business.impl.manager.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/P9OC$EcritureComptableTest.ic" NAME="EcritureComptableTest Coverage Results" MODIFIED="1588144436059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dummy.myerp.model.bean.comptabilite.*</FILTER>
+    </SUITE>
   </component>
 </project>

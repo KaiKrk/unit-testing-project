@@ -1,20 +1,19 @@
 package com.dummy.myerp.business.impl.manager;
 
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Set;
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 
+import com.dummy.myerp.model.bean.comptabilite.*;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.transaction.TransactionStatus;
 import com.dummy.myerp.business.contrat.manager.ComptabiliteManager;
 import com.dummy.myerp.business.impl.AbstractBusinessManager;
-import com.dummy.myerp.model.bean.comptabilite.CompteComptable;
-import com.dummy.myerp.model.bean.comptabilite.EcritureComptable;
-import com.dummy.myerp.model.bean.comptabilite.JournalComptable;
-import com.dummy.myerp.model.bean.comptabilite.LigneEcritureComptable;
 import com.dummy.myerp.technical.exception.FunctionalException;
 import com.dummy.myerp.technical.exception.NotFoundException;
 
@@ -60,7 +59,7 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
      */
     // TODO à tester
     @Override
-    public synchronized void addReference(EcritureComptable pEcritureComptable) {
+    public synchronized void addReference(EcritureComptable pEcritureComptable) throws FunctionalException {
         // TODO à implémenter
         // Bien se réferer à la JavaDoc de cette méthode !
         /* Le principe :
@@ -74,6 +73,31 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
                 4.  Enregistrer (insert/update) la valeur de la séquence en persitance
                     (table sequence_ecriture_comptable)
          */
+            String codeJournal = pEcritureComptable.getJournal().getCode();
+            Calendar cal = Calendar.getInstance();
+            cal.setTime(pEcritureComptable.getDate());
+            Integer annee = new Integer(cal.get(Calendar.YEAR));
+            String sequence = "";
+            int dernierNombre = 1;
+
+            List<EcritureComptable> ecritureComptableList = getListEcritureComptable();
+            for (EcritureComptable tempEcritureComptable : ecritureComptableList) {
+                if (annee.equals(tempEcritureComptable.getReference().substring(tempEcritureComptable.getReference().indexOf('-') , tempEcritureComptable.getReference().indexOf('/')))
+                        && tempEcritureComptable.getJournal().getCode().equals(codeJournal)) {
+                    dernierNombre += 1;
+                }
+                ;
+
+            }
+            sequence = new DecimalFormat("00000").format(dernierNombre);
+            pEcritureComptable.setReference(pEcritureComptable.getJournal().getCode()+"-"+annee+"/"+sequence);
+            System.out.println("la ref" + sequence);
+            if (pEcritureComptable.getReference().equalsIgnoreCase("00001")){
+                insertEcritureComptable(pEcritureComptable);
+             } else {
+                updateEcritureComptable(pEcritureComptable);
+
+            }
     }
 
     /**
