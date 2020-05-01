@@ -92,7 +92,7 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
             sequence = new DecimalFormat("00000").format(dernierNombre);
             pEcritureComptable.setReference(pEcritureComptable.getJournal().getCode()+"-"+annee+"/"+sequence);
             System.out.println("la ref" + sequence);
-            if (pEcritureComptable.getReference().equalsIgnoreCase("00001")){
+            if (sequence.equalsIgnoreCase("00001")){
                 insertEcritureComptable(pEcritureComptable);
              } else {
                 updateEcritureComptable(pEcritureComptable);
@@ -229,6 +229,7 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
      */
     @Override
     public void updateEcritureComptable(EcritureComptable pEcritureComptable) throws FunctionalException {
+        this.checkEcritureComptable(pEcritureComptable);
         TransactionStatus vTS = getTransactionManager().beginTransactionMyERP();
         try {
             getDaoProxy().getComptabiliteDao().updateEcritureComptable(pEcritureComptable);
