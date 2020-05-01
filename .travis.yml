@@ -2,6 +2,7 @@ language : java
 
 services: docker
 
+
 addons:
   sonarcloud:
     organization: "kaikrk" # the key of the org you chose at step #3
