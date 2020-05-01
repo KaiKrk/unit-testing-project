@@ -10,4 +10,7 @@ addons:
       secure: "88edb58856a440089d12d0733c3ec28fda0bd1f5"
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=P9OC
+  - cd docker/dev
+  - docker-compose up -d
+  - cd ../../src
+  - mvn clean verify sonar:sonar -Dsonar.projectKey=P9OC -Pcoverage,all-test
