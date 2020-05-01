@@ -55,8 +55,7 @@
         <spring.version>4.3.7.RELEASE</spring.version>
 
         <!-- Sonarcloud (mvn verify sonar:sonar)-->
-        <sonar.projectKey>P9OC</sonar.projectKey>
-        <sonar.organization>Kaikrk</sonar.organization>
+        <sonar.organization>KaiKrk</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.login>88edb58856a440089d12d0733c3ec28fda0bd1f5</sonar.login>
     </properties>

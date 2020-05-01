@@ -14,3 +14,4 @@ script:
   - docker-compose up -d
   - cd ../../src
   - mvn clean verify sonar:sonar -Dsonar.projectKey=P9OC -Pcoverage
+
