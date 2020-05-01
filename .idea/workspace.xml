@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,19 +21,26 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\Users\Kaiqiang\Dev\apache-maven-3.6.0\repository" />
-        <option name="mavenHome" value="$USER_HOME$/Dev/apache-maven-3.6.0" />
+        <option name="usePluginRegistry" value="true" />
         <option name="userSettingsFile" value="C:\Users\Kaiqiang\Dev\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="enabledProfiles">
+      <list>
+        <option value="coverage" />
+      </list>
     </option>
   </component>
   <component name="ProjectId" id="1b8XHNci7eJAVVzt3tZko4R1Gyc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -41,18 +51,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.ComptabiliteManagerImplTest">
     <configuration name="ComptabiliteManagerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -159,25 +157,48 @@
       <workItem from="1588059736094" duration="22965000" />
       <workItem from="1588143698963" duration="24140000" />
       <workItem from="1588228036401" duration="25868000" />
-      <workItem from="1588349632573" duration="1870000" />
+      <workItem from="1588349632573" duration="6652000" />
+      <workItem from="1588356469214" duration="387000" />
+      <workItem from="1588357430449" duration="20000" />
+      <workItem from="1588357474956" duration="3349000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2360" y="121" key="#Project_Structure" timestamp="1588358835299">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2360" y="121" key="#Project_Structure/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588358835299" />
+    <state x="2650" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588359032496">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2650" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588359032496" />
+    <state x="2381" y="192" key="SettingsEditor" timestamp="1588359465443">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2381" y="192" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588359465443" />
+    <state x="2587" y="280" width="631" height="534" key="find.popup" timestamp="1588359206501">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2587" y="280" width="631" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588359206501" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/P9OC$ComptabiliteManagerImplTest.ic" NAME="ComptabiliteManagerImplTest Coverage Results" MODIFIED="1588238744170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
