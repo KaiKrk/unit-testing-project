@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-technical/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-technical/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +21,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\Users\Kaiqiang\Dev\apache-maven-3.6.0\repository" />
-        <option name="usePluginRegistry" value="true" />
         <option name="userSettingsFile" value="C:\Users\Kaiqiang\Dev\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -41,12 +43,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Projet8Base" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.1150748" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager" selected="JUnit.ComptabiliteManagerImplTest">
@@ -157,7 +159,7 @@
       <workItem from="1588349632573" duration="6652000" />
       <workItem from="1588356469214" duration="387000" />
       <workItem from="1588357430449" duration="20000" />
-      <workItem from="1588357474956" duration="6112000" />
+      <workItem from="1588357474956" duration="24194000" />
     </task>
     <servers />
   </component>
@@ -188,33 +190,43 @@
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2650" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588359032496" />
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1588362400313">
+    <state x="592" y="236" key="FileChooserDialogImpl" timestamp="1588405070090">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="2660" y="302" key="FileChooserDialogImpl/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588401551412" />
+    <state x="592" y="236" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588405070090" />
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1588407438054">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588362400313" />
-    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1588362400313">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501792" />
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588407438054" />
+    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1588407438054">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588362400313" />
-    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1588362400312">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501791" />
+    <state width="1877" height="329" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588407438054" />
+    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1588407438053">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588362400312" />
-    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1588362400313">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501791" />
+    <state width="1877" height="329" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588407438053" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1588407438054">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588362400313" />
-    <state x="2381" y="192" key="SettingsEditor" timestamp="1588362310165">
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501791" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588407438054" />
+    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor" timestamp="1588407055642">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2381" y="192" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588362310165" />
-    <state x="2587" y="280" width="631" height="534" key="find.popup" timestamp="1588359206501">
+    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588407055642" />
+    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1588400401623">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2587" y="280" width="631" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588359206501" />
+    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588400401623" />
+    <state x="534" y="218" width="627" height="534" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1588369319189" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/P9OC$ComptabiliteManagerImplTest.ic" NAME="ComptabiliteManagerImplTest Coverage Results" MODIFIED="1588238744170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/P9OC$ComptabiliteManagerImplTest.ic" NAME="ComptabiliteManagerImplTest Coverage Results" MODIFIED="1588401016466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.dummy.myerp.business.impl.manager.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/P9OC$EcritureComptableTest.ic" NAME="EcritureComptableTest Coverage Results" MODIFIED="1588144436059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

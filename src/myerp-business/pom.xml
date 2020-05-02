@@ -37,7 +37,8 @@
     <!-- Properties -->
     <!-- =============================================================== -->
     <properties>
-
+        <sonar.projectKey>KaiKrk_P9OC-business</sonar.projectKey>
+        <sonar.coverage.jacoco.xmlReportPaths>${basedir}\target\site\jacoco\jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
 
@@ -100,6 +101,10 @@
             <artifactId>mockito-core</artifactId>
             <version>3.3.3</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

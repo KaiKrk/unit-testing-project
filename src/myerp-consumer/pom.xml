@@ -36,6 +36,8 @@
     <!-- Properties -->
     <!-- =============================================================== -->
     <properties>
+        <sonar.projectKey>KaiKrk_P9OC-consumer</sonar.projectKey>
+        <sonar.coverage.jacoco.xmlReportPaths>${basedir}\target\site\jacoco\jacoco.xml, ${basedir}/../myerp-business/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
 
