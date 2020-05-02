@@ -134,7 +134,6 @@
                     <sonar.organization>kaikrk</sonar.organization>
                     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
                     <sonar.login>88edb58856a440089d12d0733c3ec28fda0bd1f5</sonar.login>
-                    <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
                 </properties>
             </profile>
 
