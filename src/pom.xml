@@ -85,7 +85,7 @@
     <profiles>
             <profile>
 
-                <id>coverage</id>
+                <id>sonarcoverage</id>
                 <build>
                     <plugins>
                         <plugin>
@@ -125,17 +125,7 @@
                 </build>
 
             </profile>
-            <profile>
-                <id>sonar</id>
-<!--                <activation>-->
-<!--                    <activeByDefault>true</activeByDefault>-->
-<!--                </activation>-->
-                <properties>
-                    <sonar.organization>kaikrk</sonar.organization>
-                    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-                    <sonar.login>88edb58856a440089d12d0733c3ec28fda0bd1f5</sonar.login>
-                </properties>
-            </profile>
+
 
 
         <!-- Profile utilisé par le plugin m2e d'Eclipse -->
