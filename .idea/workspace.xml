@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.1150748" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.TestInitSpring.testInit">
+  <component name="RunManager" selected="JUnit.ComptabiliteManagerImplTest">
     <configuration name="ComptabiliteManagerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myerp-business" />
       <extension name="coverage">
@@ -124,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestInitSpring.testInit" />
         <item itemvalue="JUnit.ComptabiliteManagerImplTest" />
+        <item itemvalue="JUnit.TestInitSpring.testInit" />
         <item itemvalue="JUnit.ComptabiliteManagerImplTest.checkEcritureComptableUnit" />
         <item itemvalue="JUnit.ComptabiliteManagerImplTest.addReferenceTest" />
         <item itemvalue="JUnit.ComptabiliteManagerImplTest.checkEcritureComptableUnitRG5" />
@@ -152,7 +153,7 @@
       <workItem from="1588357430449" duration="20000" />
       <workItem from="1588357474956" duration="25327000" />
       <workItem from="1588418862330" duration="367000" />
-      <workItem from="1588583413229" duration="3996000" />
+      <workItem from="1588583413229" duration="5356000" />
     </task>
     <servers />
   </component>
@@ -188,26 +189,26 @@
     </state>
     <state x="2660" y="302" key="FileChooserDialogImpl/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588401551412" />
     <state x="592" y="236" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588405070090" />
-    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1588604882927">
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1588607222435">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501792" />
-    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588604882927" />
-    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1588604882927">
+    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588607222435" />
+    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1588607222435">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501791" />
-    <state width="1877" height="329" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588604882927" />
-    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1588604882926">
+    <state width="1877" height="329" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588607222435" />
+    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1588607222435">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501791" />
-    <state width="1877" height="329" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588604882926" />
-    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1588604882927">
+    <state width="1877" height="329" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588607222435" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1588607222435">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501791" />
-    <state width="1877" height="329" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588604882927" />
+    <state width="1877" height="329" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588607222435" />
     <state x="2240" y="192" width="1181" height="851" key="SettingsEditor" timestamp="1588407055642">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>

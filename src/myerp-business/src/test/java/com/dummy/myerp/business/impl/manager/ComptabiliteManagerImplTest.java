@@ -7,17 +7,12 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import com.dummy.myerp.business.impl.BusinessProxyImpl;
-import com.dummy.myerp.business.impl.TransactionManager;
-import com.dummy.myerp.consumer.dao.impl.DaoProxyImpl;
-import com.dummy.myerp.consumer.dao.impl.db.dao.ComptabiliteDaoImpl;
 import com.dummy.myerp.model.bean.comptabilite.*;
 import static org.assertj.core.api.Assertions.*;
 import com.dummy.myerp.technical.exception.FunctionalException;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
@@ -42,10 +37,7 @@ public class ComptabiliteManagerImplTest {
 
     @Test
     public void checkEcritureComptableUnit() throws Exception {
-//        EcritureComptable vEcritureComptable;
-//        vEcritureComptable = new EcritureComptable();
         ecritureComptable.setJournal(new JournalComptable("AC", "Achat"));
-//        vEcritureComptable.setDate(new Date());
         ecritureComptable.setLibelle("Libelle");
         ecritureComptable.getListLigneEcriture().add(new LigneEcritureComptable(new CompteComptable(1),
                                                                                  null, new BigDecimal(123),
@@ -58,15 +50,11 @@ public class ComptabiliteManagerImplTest {
 
     @Test(expected = FunctionalException.class)
     public void checkEcritureComptableUnitViolation() throws Exception {
-//        EcritureComptable vEcritureComptable;
-//        vEcritureComptable = new EcritureComptable();
         manager.checkEcritureComptableUnit(ecritureComptable);
     }
 
     @Test(expected = FunctionalException.class)
     public void checkEcritureComptableUnitRG2() throws Exception {
-//        EcritureComptable vEcritureComptable;
-//        vEcritureComptable = new EcritureComptable();
         ecritureComptable.setJournal(new JournalComptable("AC", "Achat"));
         ecritureComptable.setDate(new Date());
         ecritureComptable.setLibelle("Libelle");
@@ -81,8 +69,6 @@ public class ComptabiliteManagerImplTest {
 
     @Test(expected = FunctionalException.class)
     public void checkEcritureComptableUnitRG3() throws Exception {
-//        EcritureComptable vEcritureComptable;
-//        vEcritureComptable = new EcritureComptable();
         ecritureComptable.setJournal(new JournalComptable("AC", "Achat"));
         ecritureComptable.setDate(new Date());
         ecritureComptable.setLibelle("Libelle");
