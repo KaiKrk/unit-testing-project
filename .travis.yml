@@ -6,8 +6,7 @@ services: docker
 addons:
   sonarcloud:
     organization: "kaikrk" # the key of the org you chose at step #3
-    token:
-      secure: "88edb58856a440089d12d0733c3ec28fda0bd1f5"
+    token: "664efceedc2ced3844fb9331cbad11e437d93f44"
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - cd docker/dev
