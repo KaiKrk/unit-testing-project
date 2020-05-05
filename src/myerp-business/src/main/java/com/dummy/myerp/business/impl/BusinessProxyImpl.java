@@ -59,6 +59,7 @@ public class BusinessProxyImpl implements BusinessProxy {
     }
 
 
+
     // ==================== Getters/Setters ====================
     @Override
     public ComptabiliteManager getComptabiliteManager() {

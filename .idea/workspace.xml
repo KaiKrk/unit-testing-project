@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/dummy/myerp/testbusiness/business/BusinessTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/dummy/myerp/testbusiness/business/SpringRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/dummy/myerp/testbusiness/business/TestInitSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy.myerp.testbusiness.business/db-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy.myerp.testbusiness.business/testContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/BusinessProxyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/BusinessProxyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/main/resources/com/dummy/myerp/consumer/sqlContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/main/resources/com/dummy/myerp/consumer/sqlContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,15 +47,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Projet8Base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy.myerp.testbusiness.business" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.1150748" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15364806" />
+    <property name="project.structure.side.proportion" value="0.3205258" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
-  <component name="RunManager" selected="JUnit.ComptabiliteManagerImplTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\ressources\com.dummy.myerp.testbusiness.business" />
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\ressources" />
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\main\resources" />
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\java\com\dummy\myerp\testbusiness\business" />
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\ressources\com.dummy.myerp.testbusiness.business" />
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\java\com\dummy\myerp\testbusiness\business" />
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\ressources" />
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\main\resources\com\dummy\myerp\business" />
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestInitSpring.testInit">
     <configuration name="ComptabiliteManagerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myerp-business" />
       <extension name="coverage">
@@ -91,18 +119,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComptabiliteManagerImplTest.checkEcritureComptableUnitRG5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myerp-business" />
+    <configuration name="EcritureComptableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myerp-model" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dummy.myerp.business.impl.manager.*" />
+          <option name="PATTERN" value="com.dummy.myerp.model.bean.comptabilite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dummy.myerp.business.impl.manager" />
-      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" />
-      <option name="METHOD_NAME" value="checkEcritureComptableUnitRG5" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.dummy.myerp.model.bean.comptabilite" />
+      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.model.bean.comptabilite.EcritureComptableTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComptabiliteManagerImplTest" />
         <item itemvalue="JUnit.TestInitSpring.testInit" />
-        <item itemvalue="JUnit.ComptabiliteManagerImplTest.checkEcritureComptableUnit" />
         <item itemvalue="JUnit.ComptabiliteManagerImplTest.addReferenceTest" />
-        <item itemvalue="JUnit.ComptabiliteManagerImplTest.checkEcritureComptableUnitRG5" />
+        <item itemvalue="JUnit.ComptabiliteManagerImplTest" />
+        <item itemvalue="JUnit.EcritureComptableTest" />
+        <item itemvalue="JUnit.ComptabiliteManagerImplTest.checkEcritureComptableUnit" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +180,9 @@
       <workItem from="1588357430449" duration="20000" />
       <workItem from="1588357474956" duration="25327000" />
       <workItem from="1588418862330" duration="367000" />
-      <workItem from="1588583413229" duration="6275000" />
+      <workItem from="1588583413229" duration="17705000" />
+      <workItem from="1588675497207" duration="2294000" />
+      <workItem from="1588679445350" duration="11434000" />
     </task>
     <servers />
   </component>
@@ -176,54 +205,97 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2506" y="225" key="#Inspections" timestamp="1588692916476">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2506" y="225" key="#Inspections/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588692916476" />
     <state x="2360" y="121" key="#Project_Structure" timestamp="1588358835299">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2360" y="121" key="#Project_Structure/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588358835299" />
+    <state x="2334" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588628575343">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2334" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588628575343" />
     <state x="2650" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588359032496">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2650" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588359032496" />
-    <state x="592" y="236" key="FileChooserDialogImpl" timestamp="1588405070090">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2660" y="302" key="FileChooserDialogImpl" timestamp="1588676683704">
+      <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2660" y="302" key="FileChooserDialogImpl/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588401551412" />
+    <state x="2660" y="302" key="FileChooserDialogImpl/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588676683704" />
     <state x="592" y="236" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588405070090" />
-    <state width="1877" height="329" key="GridCell.Tab.0.bottom" timestamp="1588607222435">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1588700910008">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501792" />
-    <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588607222435" />
-    <state width="1877" height="329" key="GridCell.Tab.0.center" timestamp="1588607222435">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588700910008" />
+    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1588700910008">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501791" />
-    <state width="1877" height="329" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588607222435" />
-    <state width="1877" height="329" key="GridCell.Tab.0.left" timestamp="1588607222435">
+    <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588700910008" />
+    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1588700910007">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501791" />
-    <state width="1877" height="329" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588607222435" />
-    <state width="1877" height="329" key="GridCell.Tab.0.right" timestamp="1588607222435">
+    <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588700910007" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1588700910008">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588399501791" />
-    <state width="1877" height="329" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588607222435" />
-    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor" timestamp="1588407055642">
+    <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588700910008" />
+    <state x="2495" y="322" width="688" height="591" key="NewModule_or_Project.wizard" timestamp="1588676694128">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588407055642" />
-    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1588608442159">
+    <state x="2495" y="322" width="688" height="591" key="NewModule_or_Project.wizard/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588676694128" />
+    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor" timestamp="1588699342388">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588608442159" />
+    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588699342388" />
+    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1588697911402">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588697911402" />
     <state x="534" y="218" width="627" height="534" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1588369319189" />
+    <state x="2213" y="278" key="new project wizard" timestamp="1588676781433">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2213" y="278" key="new project wizard/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588676781433" />
+    <state x="2536" y="254" key="run.anything.popup" timestamp="1588693227669">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2536" y="254" key="run.anything.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588693227669" />
+    <state x="2439" y="230" key="spring file set editor" timestamp="1588699341587">
+      <screen x="1920" y="7" width="1920" height="1080" />
+    </state>
+    <state x="2439" y="230" key="spring file set editor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588699341587" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/dummy/myerp/testbusiness/business/TestInitSpring.java</url>
+          <line>24</line>
+          <properties class="com.dummy.myerp.testbusiness.business.TestInitSpring" method="testInit">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/P9OC$ComptabiliteManagerImplTest.ic" NAME="ComptabiliteManagerImplTest Coverage Results" MODIFIED="1588401016466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/P9OC$ComptabiliteManagerImplTest.ic" NAME="ComptabiliteManagerImplTest Coverage Results" MODIFIED="1588610523734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.dummy.myerp.business.impl.manager.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/P9OC$EcritureComptableTest.ic" NAME="EcritureComptableTest Coverage Results" MODIFIED="1588144436059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/P9OC$EcritureComptableTest.ic" NAME="EcritureComptableTest Coverage Results" MODIFIED="1588610407397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.dummy.myerp.model.bean.comptabilite.*</FILTER>
     </SUITE>
   </component>

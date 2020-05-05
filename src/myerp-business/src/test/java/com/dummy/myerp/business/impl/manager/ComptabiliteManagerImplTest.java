@@ -7,6 +7,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import com.dummy.myerp.business.contrat.BusinessProxy;
+import com.dummy.myerp.business.impl.TransactionManager;
+import com.dummy.myerp.consumer.dao.contrat.ComptabiliteDao;
+import com.dummy.myerp.consumer.dao.contrat.DaoProxy;
 import com.dummy.myerp.model.bean.comptabilite.*;
 import static org.assertj.core.api.Assertions.*;
 import com.dummy.myerp.technical.exception.FunctionalException;
@@ -15,9 +19,17 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @RunWith(MockitoJUnitRunner.class)
 public class ComptabiliteManagerImplTest {
+
+    @Autowired
+    private DaoProxy daoProxy;
+
+
+    @Autowired
+    private ComptabiliteDao comptabiliteDao;
 
 
     @Mock
@@ -25,6 +37,18 @@ public class ComptabiliteManagerImplTest {
 
     private ComptabiliteManagerImpl manager = new ComptabiliteManagerImpl();
 
+    @Autowired
+    private BusinessProxy businessProxy;
+
+
+    @Autowired
+    private TransactionManager transactionManager;
+
+
+
+    private ComptabiliteManagerImpl objectToTest;
+
+    private EcritureComptable sampleEcritureComptable;
     String expectedReference;
 
     EcritureComptable ecritureComptable = new EcritureComptable();
@@ -94,17 +118,17 @@ public class ComptabiliteManagerImplTest {
         ecritureComptable.setDate(new SimpleDateFormat("yyyy/MM/dd").parse("2020/04/12"));
         expectedReference = "AC-2020/00001";
 
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(ecritureComptable.getDate());
-        Integer annee = new Integer(calendar.get(Calendar.YEAR));
-        int dernierNombre = 1;
+//        Calendar calendar = Calendar.getInstance();
+//        calendar.setTime(ecritureComptable.getDate());
+//        Integer annee = new Integer(calendar.get(Calendar.YEAR));
+//        int dernierNombre = 1;
+//
+//        String sequence = new DecimalFormat("00000").format(dernierNombre);
+//        ecritureComptable.setReference(ecritureComptable.getJournal().getCode()+"-"+annee+"/"+sequence);
 
-        String sequence = new DecimalFormat("00000").format(dernierNombre);
-        ecritureComptable.setReference(ecritureComptable.getJournal().getCode()+"-"+annee+"/"+sequence);
+        manager.addReference(ecritureComptable);
 
-        comptabiliteManager.addReference(ecritureComptable);
-
-        assertThat(expectedReference).isEqualTo(ecritureComptable.getReference());
+        assertThat(ecritureComptable.getReference()).isEqualTo(expectedReference);
     }
 
 }
