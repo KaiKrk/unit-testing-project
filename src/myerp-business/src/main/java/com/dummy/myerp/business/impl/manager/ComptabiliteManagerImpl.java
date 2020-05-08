@@ -8,6 +8,8 @@ import java.util.Set;
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 
+import com.dummy.myerp.consumer.dao.contrat.ComptabiliteDao;
+import com.dummy.myerp.consumer.dao.contrat.DaoProxy;
 import com.dummy.myerp.model.bean.comptabilite.*;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -51,7 +53,9 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
      */
     @Override
     public List<EcritureComptable> getListEcritureComptable() {
-        return getDaoProxy().getComptabiliteDao().getListEcritureComptable();
+        DaoProxy daoProxy = getDaoProxy();
+        ComptabiliteDao comptabiliteDao = daoProxy.getComptabiliteDao();
+        return comptabiliteDao.getListEcritureComptable();
     }
 
     /**
@@ -69,6 +73,7 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
             int dernierNombre = 1;
 
             List<EcritureComptable> ecritureComptableList = getListEcritureComptable();
+        System.out.println(ecritureComptableList);
             for (EcritureComptable tempEcritureComptable : ecritureComptableList) {
                 if (annee.equals(tempEcritureComptable.getReference().substring(tempEcritureComptable.getReference().indexOf('-') , tempEcritureComptable.getReference().indexOf('/')))
                         && tempEcritureComptable.getJournal().getCode().equals(codeJournal)) {
@@ -77,8 +82,8 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
             }
             sequence = new DecimalFormat("00000").format(dernierNombre);
             pEcritureComptable.setReference(pEcritureComptable.getJournal().getCode()+"-"+annee+"/"+sequence);
-            System.out.println("la ref" + sequence);
-
+            System.out.println("la ref : " + pEcritureComptable.getReference());
+        System.out.println(pEcritureComptable.toString());
             if (sequence.equalsIgnoreCase("00001")){
                 insertEcritureComptable(pEcritureComptable);
              } else {

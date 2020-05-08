@@ -4,8 +4,13 @@ import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
+import java.util.Locale;
 
 import com.dummy.myerp.business.contrat.BusinessProxy;
 import com.dummy.myerp.business.impl.TransactionManager;
@@ -14,6 +19,8 @@ import com.dummy.myerp.consumer.dao.contrat.DaoProxy;
 import com.dummy.myerp.model.bean.comptabilite.*;
 import static org.assertj.core.api.Assertions.*;
 import com.dummy.myerp.technical.exception.FunctionalException;
+import com.dummy.myerp.testbusiness.business.BusinessTestCase;
+import com.dummy.myerp.testconsumer.consumer.ConsumerTestCase;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,11 +29,12 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @RunWith(MockitoJUnitRunner.class)
-public class ComptabiliteManagerImplTest {
+public class ComptabiliteManagerImplTest extends BusinessTestCase {
 
     @Autowired
     private DaoProxy daoProxy;
 
+//    private ComptabiliteDao dao = getDaoProxy().getComptabiliteDao();
 
     @Autowired
     private ComptabiliteDao comptabiliteDao;
@@ -44,11 +52,6 @@ public class ComptabiliteManagerImplTest {
     @Autowired
     private TransactionManager transactionManager;
 
-
-
-    private ComptabiliteManagerImpl objectToTest;
-
-    private EcritureComptable sampleEcritureComptable;
     String expectedReference;
 
     EcritureComptable ecritureComptable = new EcritureComptable();
@@ -113,11 +116,16 @@ public class ComptabiliteManagerImplTest {
     @Test
     public void addReferenceTest() throws FunctionalException, ParseException {
         EcritureComptable ecritureComptable = new EcritureComptable();
-        ecritureComptable.setJournal(new JournalComptable());
-        ecritureComptable.getJournal().setCode("AC");
-        ecritureComptable.setDate(new SimpleDateFormat("yyyy/MM/dd").parse("2020/04/12"));
-        expectedReference = "AC-2020/00001";
+        ecritureComptable.setJournal(new JournalComptable("AC","Banque"));
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 
+        Date date=new SimpleDateFormat("dd/MM/yyyy").parse(sdf.format(new Date()));
+        ecritureComptable.setDate(date);
+
+
+        System.out.println(sdf.format(new Date()));
+        expectedReference = "AC-2020/00001";
+//        List e = dao.getListEcritureComptable();
 //        Calendar calendar = Calendar.getInstance();
 //        calendar.setTime(ecritureComptable.getDate());
 //        Integer annee = new Integer(calendar.get(Calendar.YEAR));
