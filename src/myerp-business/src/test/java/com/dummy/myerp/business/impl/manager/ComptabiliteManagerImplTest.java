@@ -118,12 +118,12 @@ public class ComptabiliteManagerImplTest extends BusinessTestCase {
         EcritureComptable ecritureComptable = new EcritureComptable();
         ecritureComptable.setJournal(new JournalComptable("AC","Banque"));
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
-
-        Date date=new SimpleDateFormat("dd/MM/yyyy").parse(sdf.format(new Date()));
+        String dateJournal = sdf.format(new Date());
+        Date date=new SimpleDateFormat("yyyy/MM/dd").parse(dateJournal);
         ecritureComptable.setDate(date);
 
 
-        System.out.println(sdf.format(new Date()));
+        System.out.println(dateJournal);
         expectedReference = "AC-2020/00001";
 //        List e = dao.getListEcritureComptable();
 //        Calendar calendar = Calendar.getInstance();
@@ -137,6 +137,12 @@ public class ComptabiliteManagerImplTest extends BusinessTestCase {
         manager.addReference(ecritureComptable);
 
         assertThat(ecritureComptable.getReference()).isEqualTo(expectedReference);
+
+        SequenceEcritureComptable sequenceEcritureComptable = new SequenceEcritureComptable();
+        sequenceEcritureComptable.setCodeJournal("AC");
+        sequenceEcritureComptable.setDerniereValeur(2020);
+        sequenceEcritureComptable.setDerniereValeur(00001);
+        manager.deleteSequenceEcritureComptable(sequenceEcritureComptable);
     }
 
 }

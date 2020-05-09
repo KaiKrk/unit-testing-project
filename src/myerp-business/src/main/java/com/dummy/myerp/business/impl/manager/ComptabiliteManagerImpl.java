@@ -69,11 +69,12 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
             Calendar cal = Calendar.getInstance();
             cal.setTime(pEcritureComptable.getDate());
             Integer annee = new Integer(cal.get(Calendar.YEAR));
+        System.out.println(" date " + pEcritureComptable.getDate());
+        System.out.println("annee " + annee);
             String sequence = "";
             int dernierNombre = 1;
 
             List<EcritureComptable> ecritureComptableList = getListEcritureComptable();
-        System.out.println(ecritureComptableList);
             for (EcritureComptable tempEcritureComptable : ecritureComptableList) {
                 if (annee.equals(tempEcritureComptable.getReference().substring(tempEcritureComptable.getReference().indexOf('-') , tempEcritureComptable.getReference().indexOf('/')))
                         && tempEcritureComptable.getJournal().getCode().equals(codeJournal)) {
@@ -81,15 +82,19 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
                 }
             }
             sequence = new DecimalFormat("00000").format(dernierNombre);
+            SequenceEcritureComptable sequenceEcritureComptable = new SequenceEcritureComptable();
+            sequenceEcritureComptable.setCodeJournal(pEcritureComptable.getJournal().getCode());
+            sequenceEcritureComptable.setAnnee(annee);
+            sequenceEcritureComptable.setDerniereValeur(Integer.parseInt(sequence));
             pEcritureComptable.setReference(pEcritureComptable.getJournal().getCode()+"-"+annee+"/"+sequence);
             System.out.println("la ref : " + pEcritureComptable.getReference());
         System.out.println(pEcritureComptable.toString());
-            if (sequence.equalsIgnoreCase("00001")){
-                insertEcritureComptable(pEcritureComptable);
-             } else {
-                updateEcritureComptable(pEcritureComptable);
-
-            }
+//            if (sequence.equalsIgnoreCase("00001")){
+//                insertSequenceEcritureComptable(sequenceEcritureComptable);
+//             } else {
+//                updateSequenceEcritureComptable(sequenceEcritureComptable);
+//
+//            }
     }
 
     /**
@@ -245,5 +250,51 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
         } finally {
             getTransactionManager().rollbackMyERP(vTS);
         }
+    }
+
+
+    /**
+     * ajout SequenceEcritureComptable.
+     *
+     * @param sequence -
+     */
+    @Override
+    public void insertSequenceEcritureComptable(SequenceEcritureComptable sequence) {
+        TransactionStatus vTS = getTransactionManager().beginTransactionMyERP();
+        try {
+            getDaoProxy().getComptabiliteDao().insertSequenceEcritureComptable(sequence);
+            getTransactionManager().commitMyERP(vTS);
+            vTS = null;
+        } finally {
+            getTransactionManager().rollbackMyERP(vTS);
+        }
+    }
+    /**
+     * Met à jour SequenceEcritureComptable.
+     *
+     * @param sequence -
+     */
+    @Override
+    public void updateSequenceEcritureComptable(SequenceEcritureComptable sequence) {
+        TransactionStatus vTS = getTransactionManager().beginTransactionMyERP();
+        try {
+            getDaoProxy().getComptabiliteDao().updateSequenceEcritureComptable(sequence);
+            getTransactionManager().commitMyERP(vTS);
+            vTS = null;
+        } finally {
+            getTransactionManager().rollbackMyERP(vTS);
+        }
+    }
+    @Override
+    public void deleteSequenceEcritureComptable(SequenceEcritureComptable sequence) {
+        TransactionStatus vTS = getTransactionManager().beginTransactionMyERP();
+        try {
+            getDaoProxy().getComptabiliteDao().deleteSequenceEcritureComptable(sequence);
+            getTransactionManager().commitMyERP(vTS);
+            vTS = null;
+        } finally {
+            getTransactionManager().rollbackMyERP(vTS);
+        }
+
     }
 }
