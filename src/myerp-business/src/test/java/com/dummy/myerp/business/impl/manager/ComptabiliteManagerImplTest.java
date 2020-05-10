@@ -3,7 +3,10 @@ package com.dummy.myerp.business.impl.manager;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.Date;
+import java.util.List;
 
 import com.dummy.myerp.business.contrat.BusinessProxy;
 import com.dummy.myerp.business.impl.TransactionManager;
@@ -13,6 +16,7 @@ import com.dummy.myerp.model.bean.comptabilite.*;
 import static org.assertj.core.api.Assertions.*;
 import com.dummy.myerp.technical.exception.FunctionalException;
 import myerp.testbusiness.business.BusinessTestCase;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,7 +30,6 @@ public class ComptabiliteManagerImplTest  extends BusinessTestCase {
     @Autowired
     private DaoProxy daoProxy;
 
-//    private ComptabiliteDao dao = getDaoProxy().getComptabiliteDao();
 
     @Autowired
     private ComptabiliteDao comptabiliteDao;
@@ -117,14 +120,6 @@ public class ComptabiliteManagerImplTest  extends BusinessTestCase {
 
         System.out.println(dateJournal);
         expectedReference = "AC-2020/00001";
-//        List e = dao.getListEcritureComptable();
-//        Calendar calendar = Calendar.getInstance();
-//        calendar.setTime(ecritureComptable.getDate());
-//        Integer annee = new Integer(calendar.get(Calendar.YEAR));
-//        int dernierNombre = 1;
-//
-//        String sequence = new DecimalFormat("00000").format(dernierNombre);
-//        ecritureComptable.setReference(ecritureComptable.getJournal().getCode()+"-"+annee+"/"+sequence);
 
         manager.addReference(ecritureComptable);
 
@@ -132,9 +127,76 @@ public class ComptabiliteManagerImplTest  extends BusinessTestCase {
 
         SequenceEcritureComptable sequenceEcritureComptable = new SequenceEcritureComptable();
         sequenceEcritureComptable.setCodeJournal("AC");
-        sequenceEcritureComptable.setDerniereValeur(2020);
+        sequenceEcritureComptable.setAnnee(2020);
         sequenceEcritureComptable.setDerniereValeur(00001);
+
         manager.deleteSequenceEcritureComptable(sequenceEcritureComptable);
+    }
+
+    @Test
+    public void getListCompteComptableTest(){
+        List<CompteComptable> compteComptableList = manager.getListCompteComptable();
+        Assert.assertTrue(!compteComptableList.isEmpty());
+    }
+
+    @Test
+    public void getListJournalComptable(){
+        List<JournalComptable> journalComptableList = manager.getListJournalComptable();
+        Assert.assertTrue(!journalComptableList.isEmpty());
+    }
+
+    @Test
+    public void getListEcritureComptableTest() {
+        List<EcritureComptable> ecritureComptableList = manager.getListEcritureComptable();
+        Assert.assertTrue(!ecritureComptableList.isEmpty());
+    }
+
+
+    @Test
+    public void insertEcritureComptableTest() throws FunctionalException {
+        EcritureComptable ecritureComptable  = new EcritureComptable();
+        Date currentDate = new Date();
+        Integer annee = 2020;
+        ecritureComptable.setJournal(new JournalComptable("AC", "Achat"));
+        ecritureComptable.setReference(ecritureComptable.getJournal().getCode()+"-" + annee + "/00007");
+        ecritureComptable.setDate(currentDate);
+        ecritureComptable.setLibelle("Courses");
+
+        ecritureComptable.getListLigneEcriture().add(new LigneEcritureComptable(new CompteComptable(401),"Achat", new BigDecimal(25),null));
+        ecritureComptable.getListLigneEcriture().add(new LigneEcritureComptable(new CompteComptable(411),"Vente", null ,new BigDecimal(50)));
+        ecritureComptable.getListLigneEcriture().add(new LigneEcritureComptable(new CompteComptable(401),"Achat", new BigDecimal(25),null));
+
+        manager.insertEcritureComptable(ecritureComptable);
+
+        List<EcritureComptable> listEcritureComptable = manager.getListEcritureComptable();
+        EcritureComptable ecritureComptable1 = new EcritureComptable();
+
+        for(EcritureComptable tempEcriture : listEcritureComptable){
+            if(tempEcriture.getReference().equals(ecritureComptable.getReference()) && tempEcriture.getLibelle().equals("Courses")){
+                ecritureComptable1 = tempEcriture;
+            }
+        }
+        Assert.assertTrue(ecritureComptable.getReference().equals(ecritureComptable1.getReference()));
+        Assert.assertTrue(ecritureComptable.getLibelle().equals(ecritureComptable1.getLibelle()));
+        manager.deleteEcritureComptable(ecritureComptable1.getId());
+
+    }
+
+    @Test
+    public void updateEcritureComptable() throws FunctionalException {
+        List<EcritureComptable> ecritureComptableList = manager.getListEcritureComptable();
+        EcritureComptable ecritureComptable = ecritureComptableList.get(1);
+        System.out.println(ecritureComptable.getJournal().getCode());
+        String originalReference = ecritureComptable.getReference();
+        ecritureComptable.setReference("VE-2016/01010");
+        manager.updateEcritureComptable(ecritureComptable);
+
+        List<EcritureComptable> ecritureComptableListUpdated = manager.getListEcritureComptable();
+        EcritureComptable ecritureComptableUpdated = ecritureComptableListUpdated.get(1);
+        assertThat(ecritureComptable.getReference().equalsIgnoreCase(ecritureComptableUpdated.getReference()));
+
+        ecritureComptable.setReference(originalReference);
+        manager.updateEcritureComptable(ecritureComptable);
     }
 
 }

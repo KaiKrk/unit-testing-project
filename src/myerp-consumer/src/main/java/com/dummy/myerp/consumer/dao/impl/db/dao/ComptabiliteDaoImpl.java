@@ -326,7 +326,7 @@ public class ComptabiliteDaoImpl extends AbstractDbConsumer implements Comptabil
         MapSqlParameterSource vSqlParams = new MapSqlParameterSource();
         vSqlParams.addValue("journal_code", sequence.getCodeJournal());
         vSqlParams.addValue("annee", sequence.getAnnee());
-
+        System.out.println(sequence.getCodeJournal() + " --- " + sequence.getAnnee());
         vJdbcTemplate.update(SQLdeleteSequenceEcritureComptable, vSqlParams);
     }
 }

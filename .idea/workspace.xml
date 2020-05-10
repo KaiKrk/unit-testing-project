@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/dummy/myerp/testbusiness/business/BusinessTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/myerp/testbusiness/business/BusinessTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/dummy/myerp/testbusiness/business/SpringRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/myerp/testbusiness/business/SpringRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/dummy/myerp/testbusiness/business/TestInitSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/myerp/testbusiness/business/TestInitSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy.myerp.testbusiness.business/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/myerp/testbusiness/business/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy.myerp.testbusiness.business/testContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/myerp/testbusiness/business/testContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/main/java/com/dummy/myerp/consumer/dao/impl/db/dao/ComptabiliteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/main/java/com/dummy/myerp/consumer/dao/impl/db/dao/ComptabiliteDaoImpl.java" afterDir="false" />
     </list>
@@ -71,23 +63,7 @@
       <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\java\com\dummy\myerp\testbusiness\business" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComptabiliteManagerImplTest">
-    <configuration name="ComptabiliteDaoImplTest.getListEcritureComptableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myerp-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dummy.myerp.consumer.dao.impl.db.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dummy.myerp.consumer.dao.impl.db.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.consumer.dao.impl.db.dao.ComptabiliteDaoImplTest" />
-      <option name="METHOD_NAME" value="getListEcritureComptableTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ComptabiliteManagerImplTest.updateEcritureComptable">
     <configuration name="ComptabiliteManagerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myerp-business" />
       <extension name="coverage">
@@ -119,34 +95,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInitSpring.testInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComptabiliteManagerImplTest.getListJournalComptable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myerp-business" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dummy.myerp.testbusiness.business.*" />
+          <option name="PATTERN" value="com.dummy.myerp.business.impl.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dummy.myerp.testbusiness.business" />
-      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.testbusiness.business.TestInitSpring" />
-      <option name="METHOD_NAME" value="testInit" />
+      <option name="PACKAGE_NAME" value="com.dummy.myerp.business.impl.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" />
+      <option name="METHOD_NAME" value="getListJournalComptable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComptabiliteManagerImplTest.insertEcritureComptableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myerp-business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dummy.myerp.business.impl.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dummy.myerp.business.impl.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" />
+      <option name="METHOD_NAME" value="insertEcritureComptableTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComptabiliteManagerImplTest.updateEcritureComptable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myerp-business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dummy.myerp.business.impl.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dummy.myerp.business.impl.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" />
+      <option name="METHOD_NAME" value="updateEcritureComptable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ComptabiliteDaoImplTest.getListEcritureComptableTest" />
       <item itemvalue="JUnit.ComptabiliteManagerImplTest.addReferenceTest" />
-      <item itemvalue="JUnit.TestInitSpring.testInit" />
       <item itemvalue="JUnit.ComptabiliteManagerImplTest" />
+      <item itemvalue="JUnit.ComptabiliteManagerImplTest.getListJournalComptable" />
+      <item itemvalue="JUnit.ComptabiliteManagerImplTest.insertEcritureComptableTest" />
+      <item itemvalue="JUnit.ComptabiliteManagerImplTest.updateEcritureComptable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComptabiliteManagerImplTest.updateEcritureComptable" />
         <item itemvalue="JUnit.ComptabiliteManagerImplTest" />
-        <item itemvalue="JUnit.TestInitSpring.testInit" />
+        <item itemvalue="JUnit.ComptabiliteManagerImplTest.insertEcritureComptableTest" />
         <item itemvalue="JUnit.ComptabiliteManagerImplTest.addReferenceTest" />
-        <item itemvalue="JUnit.ComptabiliteDaoImplTest.getListEcritureComptableTest" />
+        <item itemvalue="JUnit.ComptabiliteManagerImplTest.getListJournalComptable" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +194,7 @@
       <workItem from="1589013507662" duration="599000" />
       <workItem from="1589050174748" duration="9119000" />
       <workItem from="1589133878374" duration="879000" />
-      <workItem from="1589134789078" duration="1552000" />
+      <workItem from="1589134789078" duration="10122000" />
     </task>
     <servers />
   </component>
@@ -241,55 +251,55 @@
     </state>
     <state x="2660" y="302" key="FileChooserDialogImpl/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589133935113" />
     <state x="592" y="236" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588405070090" />
-    <state width="1137" height="459" key="GridCell.Tab.0.bottom" timestamp="1589136239013">
+    <state width="1135" height="218" key="GridCell.Tab.0.bottom" timestamp="1589146476149">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="250" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588848520532" />
-    <state width="1137" height="459" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589136239013" />
+    <state width="1135" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589146476149" />
     <state width="1493" height="144" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588752766189" />
     <state width="1877" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588707520217" />
-    <state width="1137" height="459" key="GridCell.Tab.0.center" timestamp="1589136239013">
+    <state width="1135" height="218" key="GridCell.Tab.0.center" timestamp="1589146476148">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="250" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588848520532" />
-    <state width="1137" height="459" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589136239013" />
+    <state width="1135" height="218" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589146476148" />
     <state width="1493" height="144" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588752766189" />
     <state width="1877" height="357" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588707520217" />
-    <state width="1137" height="459" key="GridCell.Tab.0.left" timestamp="1589136239013">
+    <state width="1135" height="218" key="GridCell.Tab.0.left" timestamp="1589146476148">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="250" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588848520531" />
-    <state width="1137" height="459" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589136239013" />
+    <state width="1135" height="218" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589146476148" />
     <state width="1493" height="144" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588752766188" />
     <state width="1877" height="357" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588707520217" />
-    <state width="1137" height="459" key="GridCell.Tab.0.right" timestamp="1589136239013">
+    <state width="1135" height="218" key="GridCell.Tab.0.right" timestamp="1589146476149">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="250" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588848520532" />
-    <state width="1137" height="459" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589136239013" />
+    <state width="1135" height="218" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589146476149" />
     <state width="1493" height="144" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588752766189" />
     <state width="1877" height="357" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588707520217" />
     <state x="2495" y="322" width="688" height="591" key="NewModule_or_Project.wizard" timestamp="1589133937110">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2495" y="322" width="688" height="591" key="NewModule_or_Project.wizard/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589133937110" />
-    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor" timestamp="1589135824993">
+    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor" timestamp="1589137308112">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589135824993" />
-    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1589136323801">
+    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589137308112" />
+    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1589140865819">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589136323800" />
+    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589140865819" />
     <state x="534" y="218" width="775" height="558" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1588976834557" />
     <state x="2213" y="278" key="new project wizard" timestamp="1588676781433">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2213" y="278" key="new project wizard/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588676781433" />
-    <state x="2536" y="254" key="run.anything.popup" timestamp="1588693227669">
+    <state x="2536" y="254" key="run.anything.popup" timestamp="1589137016718">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2536" y="254" key="run.anything.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1588693227669" />
+    <state x="2536" y="254" key="run.anything.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589137016718" />
     <state x="2439" y="230" key="spring file set editor" timestamp="1589134037940">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
@@ -316,11 +326,19 @@
           </properties>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java</url>
+          <line>185</line>
+          <properties class="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" method="updateEcritureComptable">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/P9OC$ComptabiliteManagerImplTest.ic" NAME="ComptabiliteManagerImplTest Coverage Results" MODIFIED="1588610523734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/P9OC$ComptabiliteManagerImplTest.ic" NAME="ComptabiliteManagerImplTest Coverage Results" MODIFIED="1589145192274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.dummy.myerp.business.impl.manager.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/P9OC$EcritureComptableTest.ic" NAME="EcritureComptableTest Coverage Results" MODIFIED="1588610407397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
