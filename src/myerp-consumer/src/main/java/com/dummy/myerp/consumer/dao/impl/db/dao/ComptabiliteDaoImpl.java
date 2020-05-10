@@ -324,6 +324,7 @@ public class ComptabiliteDaoImpl extends AbstractDbConsumer implements Comptabil
         // ===== Suppression de l'écriture
         NamedParameterJdbcTemplate vJdbcTemplate = new NamedParameterJdbcTemplate(getDataSource(DataSourcesEnum.MYERP));
         MapSqlParameterSource vSqlParams = new MapSqlParameterSource();
+        vSqlParams.addValue("journal_code", sequence.getCodeJournal());
         vSqlParams.addValue("annee", sequence.getAnnee());
 
         vJdbcTemplate.update(SQLdeleteSequenceEcritureComptable, vSqlParams);

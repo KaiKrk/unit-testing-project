@@ -1,16 +1,9 @@
 package com.dummy.myerp.business.impl.manager;
 
 import java.math.BigDecimal;
-import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
-import java.util.Locale;
 
 import com.dummy.myerp.business.contrat.BusinessProxy;
 import com.dummy.myerp.business.impl.TransactionManager;
@@ -19,8 +12,7 @@ import com.dummy.myerp.consumer.dao.contrat.DaoProxy;
 import com.dummy.myerp.model.bean.comptabilite.*;
 import static org.assertj.core.api.Assertions.*;
 import com.dummy.myerp.technical.exception.FunctionalException;
-import com.dummy.myerp.testbusiness.business.BusinessTestCase;
-import com.dummy.myerp.testconsumer.consumer.ConsumerTestCase;
+import myerp.testbusiness.business.BusinessTestCase;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,7 +21,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @RunWith(MockitoJUnitRunner.class)
-public class ComptabiliteManagerImplTest extends BusinessTestCase {
+public class ComptabiliteManagerImplTest  extends BusinessTestCase {
 
     @Autowired
     private DaoProxy daoProxy;

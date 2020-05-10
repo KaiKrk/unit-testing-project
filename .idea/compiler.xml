@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="myerp-business" />
         <module name="myerp-consumer" />
-        <module name="myerp-technical" />
         <module name="myerp-model" />
+        <module name="myerp-business" />
+        <module name="myerp-technical" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -89,12 +89,12 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
             pEcritureComptable.setReference(pEcritureComptable.getJournal().getCode()+"-"+annee+"/"+sequence);
             System.out.println("la ref : " + pEcritureComptable.getReference());
         System.out.println(pEcritureComptable.toString());
-//            if (sequence.equalsIgnoreCase("00001")){
-//                insertSequenceEcritureComptable(sequenceEcritureComptable);
-//             } else {
-//                updateSequenceEcritureComptable(sequenceEcritureComptable);
-//
-//            }
+            if (sequence.equalsIgnoreCase("00001")){
+                insertSequenceEcritureComptable(sequenceEcritureComptable);
+             } else {
+                updateSequenceEcritureComptable(sequenceEcritureComptable);
+
+            }
     }
 
     /**
