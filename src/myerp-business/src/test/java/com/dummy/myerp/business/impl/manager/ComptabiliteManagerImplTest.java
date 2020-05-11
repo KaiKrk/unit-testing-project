@@ -5,6 +5,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -188,7 +189,11 @@ public class ComptabiliteManagerImplTest  extends BusinessTestCase {
         EcritureComptable ecritureComptable = ecritureComptableList.get(1);
         System.out.println(ecritureComptable.getJournal().getCode());
         String originalReference = ecritureComptable.getReference();
-        ecritureComptable.setReference("VE-2016/01010");
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(ecritureComptable.getDate());
+        Integer annee = new Integer(cal.get(Calendar.YEAR));
+
+        ecritureComptable.setReference(ecritureComptable.getJournal().getCode()+"-" +annee +"/01010");
         manager.updateEcritureComptable(ecritureComptable);
 
         List<EcritureComptable> ecritureComptableListUpdated = manager.getListEcritureComptable();
@@ -198,5 +203,7 @@ public class ComptabiliteManagerImplTest  extends BusinessTestCase {
         ecritureComptable.setReference(originalReference);
         manager.updateEcritureComptable(ecritureComptable);
     }
+
+
 
 }
