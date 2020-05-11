@@ -12,7 +12,7 @@ script:
   - cd docker/dev
   - docker-compose up -d
   - cd ../../src
-  - mvn clean verify sonar:sonar -Dsonar.projectKey=P9OC -Psonarcoverage
+  - mvn verify sonar:sonar -Dsonar.projectKey=P9OC -Psonarcoverage
 
 notifications:
   email: false

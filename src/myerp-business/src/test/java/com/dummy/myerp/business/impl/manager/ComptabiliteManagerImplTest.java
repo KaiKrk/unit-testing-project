@@ -25,28 +25,15 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.beans.factory.annotation.Autowired;
 
+
 @RunWith(MockitoJUnitRunner.class)
 public class ComptabiliteManagerImplTest  extends BusinessTestCase {
 
-    @Autowired
-    private DaoProxy daoProxy;
 
 
-    @Autowired
-    private ComptabiliteDao comptabiliteDao;
-
-
-    @Mock
-    private ComptabiliteManagerImpl comptabiliteManager;
 
     private ComptabiliteManagerImpl manager = new ComptabiliteManagerImpl();
 
-    @Autowired
-    private BusinessProxy businessProxy;
-
-
-    @Autowired
-    private TransactionManager transactionManager;
 
     String expectedReference;
 
