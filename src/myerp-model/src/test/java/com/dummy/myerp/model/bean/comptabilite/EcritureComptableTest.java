@@ -1,6 +1,7 @@
 package com.dummy.myerp.model.bean.comptabilite;
 
 import java.math.BigDecimal;
+import java.util.Date;
 
 import org.apache.commons.lang3.ObjectUtils;
 import org.junit.Test;
@@ -19,6 +20,19 @@ public class EcritureComptableTest {
                                                                     vLibelle,
                                                                     vDebit, vCredit);
         return vRetour;
+    }
+
+    @Test
+    public void EcritureComptableTest(){
+        EcritureComptable ecritureComptable = new EcritureComptable();
+        ecritureComptable.setReference("AC-2020/00002");
+        ecritureComptable.setLibelle("Achat");
+        ecritureComptable.setDate(new Date());
+        ecritureComptable.setId(20);
+        Assert.assertEquals(ecritureComptable.toString(),
+                "EcritureComptable{id=20, journal=null, reference='AC-2020/00002', date="+new Date()+", libelle='Achat', totalDebit=0, totalCredit=0, listLigneEcriture=[\n" +
+                        "\n" +
+                        "]}");
     }
 
     @Test        //New test to get total Debit

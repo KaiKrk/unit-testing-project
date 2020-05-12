@@ -28,4 +28,12 @@ public class JournalComptableTest {
             Assert.assertEquals(JournalComptable.getByCode(journalComptableList, "AC"+i).getLibelle(), "Achat " + i);
 
     }
+
+    @Test
+    public void toStringTest(){
+        JournalComptable journalComptable =  new JournalComptable("AC","Achat");
+        journalComptable.toString();
+        System.out.println(journalComptable.toString());
+        Assert.assertEquals(journalComptable.toString(),"JournalComptable{code='AC', libelle='Achat'}");
+    }
 }
