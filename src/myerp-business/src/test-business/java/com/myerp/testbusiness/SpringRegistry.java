@@ -1,4 +1,4 @@
-package myerp.testbusiness.business;
+package com.myerp.testbusiness;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -23,7 +23,7 @@ public final class SpringRegistry {
 
     /** Nom des fichiers de contexte de l'application */
     private static final String CONTEXT_APPLI_LOCATION
-        = "myerp\\testbusiness\\business\\testContext.xml";
+        = "testContext.xml";
 
     /** Le context spring de l'application */
     private ApplicationContext contextAppli;

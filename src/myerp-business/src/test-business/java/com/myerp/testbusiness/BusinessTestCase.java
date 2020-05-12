@@ -1,5 +1,4 @@
-package myerp.testbusiness.business;
-
+package com.myerp.testbusiness;
 
 import com.dummy.myerp.business.contrat.BusinessProxy;
 import com.dummy.myerp.business.impl.TransactionManager;
