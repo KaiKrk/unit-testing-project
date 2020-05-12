@@ -76,6 +76,8 @@ public interface ComptabiliteDao {
      */
     void updateEcritureComptable(EcritureComptable pEcritureComptable);
 
+    List<SequenceEcritureComptable> getListSequenceEcritureComptable();
+
     /**
      * Insert une nouvelle écriture comptable.
      *

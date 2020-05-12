@@ -111,23 +111,7 @@ public class ComptabiliteManagerImplTest  extends BusinessTestCase {
         manager.deleteSequenceEcritureComptable(sequenceEcritureComptable);
     }
 
-    @Test
-    public void getListCompteComptableTest(){
-        List<CompteComptable> compteComptableList = manager.getListCompteComptable();
-        Assert.assertTrue(!compteComptableList.isEmpty());
-    }
 
-    @Test
-    public void getListJournalComptable(){
-        List<JournalComptable> journalComptableList = manager.getListJournalComptable();
-        Assert.assertTrue(!journalComptableList.isEmpty());
-    }
-
-    @Test
-    public void getListEcritureComptableTest() {
-        List<EcritureComptable> ecritureComptableList = manager.getListEcritureComptable();
-        Assert.assertTrue(!ecritureComptableList.isEmpty());
-    }
 
 
     @Test

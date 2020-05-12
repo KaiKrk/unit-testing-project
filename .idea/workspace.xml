@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myerp-consumer/src/main/java/com/dummy/myerp/consumer/dao/impl/db/rowmapper/comptabilite/SequenceEcritureComptableRM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/CompteComptableRMTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/EcritureComptableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/EcritureComptableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/JournalComptableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/JournalComptableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/SequenceEcritureComptableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/SequenceEcritureComptableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/main/java/com/dummy/myerp/consumer/dao/contrat/ComptabiliteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/main/java/com/dummy/myerp/consumer/dao/contrat/ComptabiliteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/main/java/com/dummy/myerp/consumer/dao/impl/db/dao/ComptabiliteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/main/java/com/dummy/myerp/consumer/dao/impl/db/dao/ComptabiliteDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/main/resources/com/dummy/myerp/consumer/sqlContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/main/resources/com/dummy/myerp/consumer/sqlContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +212,7 @@
       <workItem from="1589134789078" duration="10212000" />
       <workItem from="1589193148849" duration="12374000" />
       <workItem from="1589229282392" duration="7643000" />
-      <workItem from="1589268510226" duration="11551000" />
+      <workItem from="1589268510226" duration="15708000" />
     </task>
     <servers />
   </component>
@@ -305,10 +309,10 @@
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589268865644" />
-    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1589278879924">
+    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1589319025919">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589278879924" />
+    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589319025919" />
     <state x="534" y="218" width="775" height="558" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1588976834557" />
     <state x="2213" y="278" key="new project wizard" timestamp="1588676781433">
       <screen x="1920" y="7" width="1920" height="1080" />
@@ -351,7 +355,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java</url>
-          <line>163</line>
+          <line>147</line>
           <properties class="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" method="updateEcritureComptable">
             <option name="EMULATED" value="true" />
           </properties>

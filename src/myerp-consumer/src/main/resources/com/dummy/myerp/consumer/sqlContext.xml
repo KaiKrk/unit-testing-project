@@ -115,6 +115,14 @@
                 WHERE journal_code=:journal_code AND annee=:annee
             </value>
         </property>
+
+        <property name="SQLgetListSequenceEcriture">
+            <value>
+                SELECT * FROM myerp.sequence_ecriture_comptable
+            </value>
+        </property>
+
+
     </bean>
 
 </beans>
