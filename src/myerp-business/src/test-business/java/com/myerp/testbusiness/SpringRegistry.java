@@ -23,7 +23,7 @@ public final class SpringRegistry {
 
     /** Nom des fichiers de contexte de l'application */
     private static final String CONTEXT_APPLI_LOCATION
-        = "classpath:/testContext.xml";
+        = "\\testContext.xml";
 
     /** Le context spring de l'application */
     private ApplicationContext contextAppli;
