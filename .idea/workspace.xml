@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/ComptabiliteDaoImplITTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com/dummy/myerp/consumer/dao/impl/db/rowmapper/comptabilite/CompteComptableRMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com/dummy/myerp/consumer/dao/impl/db/rowmapper/comptabilite/EcritureComptableRMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com/dummy/myerp/consumer/dao/impl/db/rowmapper/comptabilite/JournalComptableRMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com/dummy/myerp/consumer/dao/impl/db/rowmapper/comptabilite/LigneEcritureComptableRMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com/dummy/myerp/consumer/dao/impl/db/rowmapper/comptabilite/SequenceEcritureComptableRMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/ComptabiliteDaoImplIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/CompteComptableRMTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/ComptabiliteDaoImplITTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/ComptabiliteDaoImplITTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +208,7 @@
       <workItem from="1589193148849" duration="12374000" />
       <workItem from="1589229282392" duration="7643000" />
       <workItem from="1589268510226" duration="17765000" />
-      <workItem from="1589359624808" duration="13668000" />
+      <workItem from="1589359624808" duration="13995000" />
     </task>
     <servers />
   </component>
