@@ -5,6 +5,7 @@ import com.dummy.myerp.model.bean.comptabilite.*;
 import com.dummy.myerp.technical.exception.NotFoundException;
 import com.dummy.myerp.testconsumer.consumer.ConsumerTestCase;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.math.BigDecimal;
@@ -52,6 +53,7 @@ public class ComptabiliteDaoImplITTest extends ConsumerTestCase {
 //        Assertions.assertThrows(NotFoundException.class, () -> comptabiliteDao.getEcritureComptable(0));
     }
 
+    @Ignore
     @Test
     public void getEcritureComptableByRefTest() throws NotFoundException {
         EcritureComptable ecritureComptable = comptabiliteDao.getEcritureComptableByRef("BQ-2016/00003");
@@ -101,6 +103,7 @@ public class ComptabiliteDaoImplITTest extends ConsumerTestCase {
 
     }
 
+    @Ignore
     @Test
     public void updateEcritureComptableTest() throws NotFoundException {
         EcritureComptable ecritureComptable  = new EcritureComptable();
