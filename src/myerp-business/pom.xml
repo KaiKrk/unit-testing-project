@@ -152,7 +152,7 @@
                         <directory>src/test/resources</directory>
                     </testResource>
                     <testResource>
-                        <directory>src/test-business/resources</directory>
+                        <directory>src/test-business/ressources</directory>
                     </testResource>
                 </testResources>
             </build>
