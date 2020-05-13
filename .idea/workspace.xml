@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +206,7 @@
       <workItem from="1589193148849" duration="12374000" />
       <workItem from="1589229282392" duration="7643000" />
       <workItem from="1589268510226" duration="17765000" />
-      <workItem from="1589359624808" duration="16223000" />
+      <workItem from="1589359624808" duration="16596000" />
     </task>
     <servers />
   </component>
@@ -309,10 +307,10 @@
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589268865644" />
-    <state x="534" y="218" width="812" height="558" key="find.popup" timestamp="1589383316053">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1589387203081">
+      <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589321330470" />
+    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589387203081" />
     <state x="534" y="218" width="812" height="558" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1589383316053" />
     <state x="2213" y="278" key="new project wizard" timestamp="1588676781433">
       <screen x="1920" y="7" width="1920" height="1080" />

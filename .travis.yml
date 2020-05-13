@@ -12,7 +12,7 @@ script:
   - cd docker/dev
   - docker-compose up -d
   - cd ../../src
-  - mvn verify sonar:sonar -Dsonar.projectKey=P9OC -Psonarcoverage, test-business, test-consumer
+  - mvn verify sonar:sonar -Dsonar.projectKey=P9OC -Psonarcoverage,test-business,test-consumer
 
 notifications:
   email: false
