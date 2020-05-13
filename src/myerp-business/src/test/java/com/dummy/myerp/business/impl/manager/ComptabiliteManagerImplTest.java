@@ -146,32 +146,32 @@ public class ComptabiliteManagerImplTest  extends BusinessTestCase {
 
     }
 
-//    @Test
-//    public void updateEcritureComptable() throws FunctionalException {
-//        EcritureComptable ecritureComptable  = new EcritureComptable();
-//        Date currentDate = new Date();
-//        Integer annee = LocalDateTime.ofInstant(currentDate.toInstant(), ZoneId.systemDefault()).toLocalDate().getYear();
-//        ecritureComptable.setJournal(new JournalComptable("AC", "Achat"));
-//        ecritureComptable.setReference("AC-" + annee + "/40404");
-//        ecritureComptable.setDate(currentDate);
-//        ecritureComptable.setLibelle("Depense");
-//
-//        ecritureComptable.getListLigneEcriture().add(new LigneEcritureComptable(new CompteComptable(606),"Facture EDF", new BigDecimal(45),null));
-//        ecritureComptable.getListLigneEcriture().add(new LigneEcritureComptable(new CompteComptable(401),"Fournitures", null,new BigDecimal(45)));
-//
-//        manager.insertEcritureComptable(ecritureComptable);
-//        List<EcritureComptable> listAfterInsert = manager.getListEcritureComptable();
-//        EcritureComptable ecritureComptableBis = listAfterInsert.get(listAfterInsert.size()-1);
-//
-//        ecritureComptableBis.setLibelle("Achat");
-//
-//        manager.updateEcritureComptable(ecritureComptableBis);
-//        List<EcritureComptable> listAfterUpdate = manager.getListEcritureComptable();
-//        EcritureComptable ecritureComptableAfterUpdate = listAfterUpdate.get(listAfterUpdate.size()-1);
-//        System.out.println(" Libelle "+ecritureComptableAfterUpdate.getLibelle() + " ID " + ecritureComptableAfterUpdate.getId());
-//        Assert.assertTrue(ecritureComptableAfterUpdate.getLibelle().equals("Achat"));
-//        manager.deleteEcritureComptable(ecritureComptableBis.getId());
-//    }
+    @Test
+    public void updateEcritureComptable() throws FunctionalException {
+        EcritureComptable ecritureComptable  = new EcritureComptable();
+        Date currentDate = new Date();
+        Integer annee = LocalDateTime.ofInstant(currentDate.toInstant(), ZoneId.systemDefault()).toLocalDate().getYear();
+        ecritureComptable.setJournal(new JournalComptable("AC", "Achat"));
+        ecritureComptable.setReference("AC-" + annee + "/40404");
+        ecritureComptable.setDate(currentDate);
+        ecritureComptable.setLibelle("Depense");
+
+        ecritureComptable.getListLigneEcriture().add(new LigneEcritureComptable(new CompteComptable(606),"Facture EDF", new BigDecimal(45),null));
+        ecritureComptable.getListLigneEcriture().add(new LigneEcritureComptable(new CompteComptable(401),"Fournitures", null,new BigDecimal(45)));
+
+        manager.insertEcritureComptable(ecritureComptable);
+        List<EcritureComptable> listAfterInsert = manager.getListEcritureComptable();
+        EcritureComptable ecritureComptableBis = listAfterInsert.get(listAfterInsert.size()-1);
+
+        ecritureComptableBis.setLibelle("Achat");
+
+        manager.updateEcritureComptable(ecritureComptableBis);
+        List<EcritureComptable> listAfterUpdate = manager.getListEcritureComptable();
+        EcritureComptable ecritureComptableAfterUpdate = listAfterUpdate.get(listAfterUpdate.size()-1);
+        System.out.println(" Libelle "+ecritureComptableAfterUpdate.getLibelle() + " ID " + ecritureComptableAfterUpdate.getId());
+        Assert.assertTrue(ecritureComptableAfterUpdate.getLibelle().equals("Achat"));
+        manager.deleteEcritureComptable(ecritureComptableBis.getId());
+    }
 
 
 

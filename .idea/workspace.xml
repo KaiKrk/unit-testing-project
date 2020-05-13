@@ -4,6 +4,11 @@
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/myerp/testbusiness/SpringRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/myerp/testbusiness/SpringRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/business/testContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy.myerpbusinessr/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy.myerpbusinessr/testContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy/testContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/ComptabiliteDaoImplITTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/ComptabiliteDaoImplITTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15364806" />
     <property name="project.structure.side.proportion" value="0.3205258" />
     <property name="settings.editor.selected.configurable" value="spring" />
@@ -209,7 +214,8 @@
       <workItem from="1589193148849" duration="12374000" />
       <workItem from="1589229282392" duration="7643000" />
       <workItem from="1589268510226" duration="17765000" />
-      <workItem from="1589359624808" duration="23843000" />
+      <workItem from="1589359624808" duration="24513000" />
+      <workItem from="1589408640251" duration="335000" />
     </task>
     <servers />
   </component>
@@ -248,10 +254,10 @@
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2765" y="410" key="#Notifications/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589133885742" />
-    <state x="2360" y="121" key="#Project_Structure" timestamp="1589268533818">
+    <state x="2360" y="121" key="#Project_Structure" timestamp="1589408660676">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2360" y="121" key="#Project_Structure/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589268533818" />
+    <state x="2360" y="121" key="#Project_Structure/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589408660676" />
     <state x="2334" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589135616987">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
@@ -274,32 +280,32 @@
     </state>
     <state x="2660" y="302" key="FileChooserDialogImpl/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589271591145" />
     <state x="592" y="236" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588405070090" />
-    <state width="1877" height="240" key="GridCell.Tab.0.bottom" timestamp="1589387928722">
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom" timestamp="1589395479668">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="250" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588848520532" />
-    <state width="1877" height="240" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589387928722" />
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589395479668" />
     <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589383911064" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589229144292" />
-    <state width="1877" height="240" key="GridCell.Tab.0.center" timestamp="1589387928722">
+    <state width="1877" height="240" key="GridCell.Tab.0.center" timestamp="1589395479668">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="250" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588848520532" />
-    <state width="1877" height="240" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589387928722" />
+    <state width="1877" height="240" key="GridCell.Tab.0.center/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589395479668" />
     <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589383911064" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589229144292" />
-    <state width="1877" height="240" key="GridCell.Tab.0.left" timestamp="1589387928722">
+    <state width="1877" height="240" key="GridCell.Tab.0.left" timestamp="1589395479668">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="250" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588848520531" />
-    <state width="1877" height="240" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589387928722" />
+    <state width="1877" height="240" key="GridCell.Tab.0.left/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589395479668" />
     <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589383911064" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589229144292" />
-    <state width="1877" height="240" key="GridCell.Tab.0.right" timestamp="1589387928722">
+    <state width="1877" height="240" key="GridCell.Tab.0.right" timestamp="1589395479668">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state width="1493" height="250" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@0.0.1536.864" timestamp="1588848520532" />
-    <state width="1877" height="240" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589387928722" />
+    <state width="1877" height="240" key="GridCell.Tab.0.right/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589395479668" />
     <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589383911064" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589229144292" />
     <state x="2495" y="322" width="688" height="591" key="NewModule_or_Project.wizard" timestamp="1589133937110">
@@ -310,10 +316,10 @@
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589391835446" />
-    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1589390996344">
+    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1589408710920">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589390996344" />
+    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589408710920" />
     <state x="534" y="218" width="812" height="558" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1589383316053" />
     <state x="2213" y="278" key="new project wizard" timestamp="1588676781433">
       <screen x="1920" y="7" width="1920" height="1080" />
@@ -323,10 +329,10 @@
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2536" y="254" key="run.anything.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589368572393" />
-    <state x="2439" y="230" key="spring file set editor" timestamp="1589391834858">
+    <state x="2439" y="230" key="spring file set editor" timestamp="1589408659817">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2439" y="230" key="spring file set editor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589391834858" />
+    <state x="2439" y="230" key="spring file set editor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589408659817" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -357,7 +363,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java</url>
           <line>149</line>
-          <properties class="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest" method="updateEcritureComptable">
+          <properties class="com.dummy.myerp.business.impl.manager.ComptabiliteManagerImplTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="12" />
