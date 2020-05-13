@@ -8,9 +8,8 @@ addons:
     organization: "kaikrk" # the key of the org you chose at step #3
     token: "664efceedc2ced3844fb9331cbad11e437d93f44"
 script:
-  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - cd docker/dev
-  - docker-compose up 
+  - docker-compose up -d
   - cd ../../src
   - mvn verify sonar:sonar -Dsonar.projectKey=P9OC -Psonarcoverage,test-business,test-consumer
 
