@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="" />
+    <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/myerp/testbusiness/SpringRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/java/com/myerp/testbusiness/SpringRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy.myerpbusinessr/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/testContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources/com.dummy.myerpbusinessr/testContext.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_project-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15364806" />
     <property name="project.structure.side.proportion" value="0.3205258" />
     <property name="settings.editor.selected.configurable" value="spring" />
@@ -63,11 +67,11 @@
       <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\java\com\dummy\myerp\testbusiness\business" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\ressources\com.dummy.myerpbusinessr" />
       <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\ressources" />
       <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\target" />
       <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\ressources\com.dummy.myerp.testbusiness.business" />
       <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\test-business\java\com\dummy\myerp\testbusiness\business" />
-      <recent name="C:\Users\Kaiqiang\Desktop\P9OC\src\myerp-business\src\main\resources\com\dummy\myerp\business" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ComptabiliteDaoImplITTest.updateEcritureComptableTest">
@@ -206,7 +210,7 @@
       <workItem from="1589193148849" duration="12374000" />
       <workItem from="1589229282392" duration="7643000" />
       <workItem from="1589268510226" duration="17765000" />
-      <workItem from="1589359624808" duration="19244000" />
+      <workItem from="1589359624808" duration="19787000" />
     </task>
     <servers />
   </component>
@@ -303,10 +307,10 @@
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2495" y="322" width="688" height="591" key="NewModule_or_Project.wizard/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589133937110" />
-    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor" timestamp="1589268865644">
+    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor" timestamp="1589390692110">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589268865644" />
+    <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589390692110" />
     <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1589387203081">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
