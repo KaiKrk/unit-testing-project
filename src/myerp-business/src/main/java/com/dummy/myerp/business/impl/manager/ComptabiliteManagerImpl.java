@@ -69,8 +69,6 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
             Calendar cal = Calendar.getInstance();
             cal.setTime(pEcritureComptable.getDate());
             Integer annee = new Integer(cal.get(Calendar.YEAR));
-        System.out.println(" date " + pEcritureComptable.getDate());
-        System.out.println("annee " + annee);
             String sequence = "";
             int dernierNombre = 1;
 
@@ -87,8 +85,6 @@ public class ComptabiliteManagerImpl extends AbstractBusinessManager implements 
             sequenceEcritureComptable.setAnnee(annee);
             sequenceEcritureComptable.setDerniereValeur(Integer.parseInt(sequence));
             pEcritureComptable.setReference(pEcritureComptable.getJournal().getCode()+"-"+annee+"/"+sequence);
-            System.out.println("la ref : " + pEcritureComptable.getReference());
-        System.out.println(pEcritureComptable.toString());
             if (sequence.equalsIgnoreCase("00001")){
                 insertSequenceEcritureComptable(sequenceEcritureComptable);
              } else {

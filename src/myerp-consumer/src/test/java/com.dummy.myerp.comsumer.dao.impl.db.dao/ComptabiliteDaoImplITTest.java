@@ -50,7 +50,6 @@ public class ComptabiliteDaoImplITTest extends ConsumerTestCase {
         EcritureComptable vEcritureComptable = comptabiliteDao.getEcritureComptable(-3);
         Assert.assertEquals("BQ-2016/00003", vEcritureComptable.getReference());
 
-//        Assertions.assertThrows(NotFoundException.class, () -> comptabiliteDao.getEcritureComptable(0));
     }
 
     @Ignore
@@ -62,7 +61,6 @@ public class ComptabiliteDaoImplITTest extends ConsumerTestCase {
         Assert.assertEquals(annee,"2016");
         Assert.assertEquals(ecritureComptable.getId().intValue(), -3);
 
-//        Assertions.assertThrows(NotFoundException.class, ()-> comptabiliteDao.getEcritureComptableByRef("BQ-2016/33333"));
     }
 
     @Test

@@ -5,11 +5,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-import com.dummy.myerp.business.impl.BusinessProxyImpl;
 import com.dummy.myerp.model.bean.comptabilite.*;
 import static org.assertj.core.api.Assertions.*;
 import com.dummy.myerp.technical.exception.FunctionalException;
@@ -98,7 +96,6 @@ public class ComptabiliteManagerImplTest  extends BusinessTestCase {
         ecritureComptable.setDate(date);
 
 
-        System.out.println(dateJournal);
         expectedReference = "AC-2020/00001";
 
         manager.addReference(ecritureComptable);
@@ -168,7 +165,6 @@ public class ComptabiliteManagerImplTest  extends BusinessTestCase {
         manager.updateEcritureComptable(ecritureComptableBis);
         List<EcritureComptable> listAfterUpdate = manager.getListEcritureComptable();
         EcritureComptable ecritureComptableAfterUpdate = listAfterUpdate.get(listAfterUpdate.size()-1);
-        System.out.println(" Libelle "+ecritureComptableAfterUpdate.getLibelle() + " ID " + ecritureComptableAfterUpdate.getId());
         Assert.assertTrue(ecritureComptableAfterUpdate.getLibelle().equals("Achat"));
         manager.deleteEcritureComptable(ecritureComptableBis.getId());
     }
