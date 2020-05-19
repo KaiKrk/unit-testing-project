@@ -41,5 +41,11 @@ Il comporte :
     docker-compose stop
     docker-compose rm -v
     docker-compose up
-
+    
+    
+### Lancement des Test D'integration 
+     mvn verify -Ptestbusiness,test-consumer
+     
+### Lancement des test avec coverage Sonarcloud
+      mvn verify sonar:sonar -Ptest-business,test-consumer,sonarcoverage
  
