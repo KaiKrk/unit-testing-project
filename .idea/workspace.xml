@@ -4,11 +4,8 @@
     <list default="true" id="624b3d0e-14c5-4300-a91e-1a2960973ba4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/unTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/main/java/com/dummy/myerp/consumer/dao/impl/db/dao/ComptabiliteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/main/java/com/dummy/myerp/consumer/dao/impl/db/dao/ComptabiliteDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/ComptabiliteDaoImplITTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/test/java/com.dummy.myerp.comsumer.dao.impl.db.dao/ComptabiliteDaoImplITTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/JournalComptableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-model/src/test/java/com/dummy/myerp/model/bean/comptabilite/JournalComptableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-consumer/src/main/resources/com/dummy/myerp/consumer/sqlContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-consumer/src/main/resources/com/dummy/myerp/consumer/sqlContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myerp-model/src/main/java/com/dummy/myerp/model/bean/comptabilite/EcritureComptable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myerp-model/src/main/java/com/dummy/myerp/model/bean/comptabilite/EcritureComptable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/myerp-business/src/test-business/ressources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P10OC" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -217,6 +214,8 @@
       <workItem from="1589359624808" duration="24513000" />
       <workItem from="1589408640251" duration="1706000" />
       <workItem from="1589452174487" duration="1007000" />
+      <workItem from="1589559866037" duration="2207000" />
+      <workItem from="1590047654956" duration="5385000" />
     </task>
     <servers />
   </component>
@@ -276,10 +275,10 @@
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2633" y="412" width="612" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589362926696" />
-    <state x="2660" y="302" key="FileChooserDialogImpl" timestamp="1589271591145">
+    <state x="2660" y="302" key="FileChooserDialogImpl" timestamp="1589560883092">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2660" y="302" key="FileChooserDialogImpl/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589271591145" />
+    <state x="2660" y="302" key="FileChooserDialogImpl/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589560883092" />
     <state x="592" y="236" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588405070090" />
     <state width="1877" height="240" key="GridCell.Tab.0.bottom" timestamp="1589395479668">
       <screen x="1920" y="7" width="1920" height="1080" />
@@ -317,11 +316,11 @@
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
     <state x="2240" y="192" width="1181" height="851" key="SettingsEditor/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589391835446" />
-    <state x="2587" y="280" width="783" height="534" key="find.popup" timestamp="1589452433025">
+    <state x="2587" y="280" width="1122" height="534" key="find.popup" timestamp="1590055869338">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
-    <state x="2587" y="280" width="783" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1589452433025" />
-    <state x="534" y="218" width="812" height="558" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1589383316053" />
+    <state x="2587" y="280" width="1122" height="534" key="find.popup/0.0.1536.864/1920.7.1920.1080@1920.7.1920.1080" timestamp="1590055869338" />
+    <state x="534" y="218" width="812" height="558" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1590054453902" />
     <state x="2213" y="278" key="new project wizard" timestamp="1588676781433">
       <screen x="1920" y="7" width="1920" height="1080" />
     </state>
